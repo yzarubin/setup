@@ -25,6 +25,10 @@ git config --global core.editor "subl3 -w"
 # rust tool chain
 curl https://sh.rustup.rs -sSf | sh
 
+# nodejs
+curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.33.2/install.sh | bash
+nvm install node
+
 # apps
 brew cask install google-chrome;
 brew cask install google-drive;
