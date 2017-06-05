@@ -1,0 +1,3 @@
+{
+	"shell_cmd": "TIMEFORMAT=TIME=%R; g++-7 -O2 \"${file}\" -o \"${file_path}/${file_base_name}\" && time  (\"${file_path}/${file_base_name}\" < input && echo \n )  && rm \"${file_path}/${file_base_name}\""
+}
